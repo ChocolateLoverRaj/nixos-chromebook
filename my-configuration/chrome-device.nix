@@ -6,8 +6,8 @@ let
     wttsrc = fetchFromGitHub {
       owner = "WeirdTreeThing";
       repo = "alsa-ucm-conf-cros";
-      rev = "6b395ae73ac63407d8a9892fe1290f191eb0315b";
-      hash = "sha256-GHrK85DmiYF6FhEJlYJWy6aP9wtHFKkTohqt114TluI=";
+      rev = "f7be751655e4298851615bded7adaf364ccfb8c3";
+      hash = "sha256-x4DQoYIF8tRlNQ1/vKgTtgzach/CCNYzsl+gxviSVHs=";
     };
     unpackPhase = ''
       runHook preUnpack
